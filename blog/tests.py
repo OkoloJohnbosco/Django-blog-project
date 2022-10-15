@@ -3,11 +3,9 @@ from django.contrib.auth import get_user_model
 from .models import Post
 
 
-def find_file():
-    return "boss"
-
-find_file()
 # Create your tests here.
+
+
 class BlogTests(TestCase):
     @classmethod
     def setUpTestData(cls) -> None:
