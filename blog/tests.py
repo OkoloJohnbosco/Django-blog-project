@@ -3,7 +3,11 @@ from django.contrib.auth import get_user_model
 from .models import Post
 
 
+def find_x():
+    return ""
 # Create your tests here.
+
+
 class BlogTests(TestCase):
     @classmethod
     def setUpTestData(cls) -> None:
